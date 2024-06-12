@@ -5,8 +5,7 @@ metadata:
 
   spec:
     containers:
-     -name: hello-pod
+    - name: hello-pod
       image: nginx
-
-     ports:
+      ports:
       - containers: 80
